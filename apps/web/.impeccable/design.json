@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T19:22:41.022Z",
+  "title": "Design System: Baliza",
+  "extensions": {
+    "colorMeta": {
+      "bg-deep": {
+        "role": "neutral",
+        "displayName": "Noche Profunda",
+        "canonical": "oklch(16% 0.06 280)",
+        "tonalRamp": [
+          "oklch(15% 0.06 280)",
+          "oklch(25% 0.06 280)",
+          "oklch(35% 0.06 280)",
+          "oklch(45% 0.06 280)",
+          "oklch(55% 0.06 280)",
+          "oklch(65% 0.06 280)",
+          "oklch(80% 0.06 280)",
+          "oklch(95% 0.06 280)"
+        ]
+      },
+      "accent-violet-bright": {
+        "role": "primary",
+        "displayName": "Violeta Lavanda",
+        "canonical": "oklch(70.9% 0.159 293.5)",
+        "tonalRamp": [
+          "oklch(15% 0.159 293.5)",
+          "oklch(25% 0.159 293.5)",
+          "oklch(35% 0.159 293.5)",
+          "oklch(45% 0.159 293.5)",
+          "oklch(55% 0.159 293.5)",
+          "oklch(65% 0.159 293.5)",
+          "oklch(80% 0.159 293.5)",
+          "oklch(95% 0.159 293.5)"
+        ]
+      },
+      "accent-violet": {
+        "role": "primary",
+        "displayName": "Violeta Eléctrico",
+        "canonical": "oklch(54.1% 0.247 293)",
+        "tonalRamp": [
+          "oklch(15% 0.247 293)",
+          "oklch(25% 0.247 293)",
+          "oklch(35% 0.247 293)",
+          "oklch(45% 0.247 293)",
+          "oklch(55% 0.247 293)",
+          "oklch(65% 0.247 293)",
+          "oklch(80% 0.247 293)",
+          "oklch(95% 0.247 293)"
+        ]
+      },
+      "accent-magenta": {
+        "role": "secondary",
+        "displayName": "Magenta AI Day",
+        "canonical": "oklch(66.7% 0.259 322)",
+        "tonalRamp": [
+          "oklch(15% 0.259 322)",
+          "oklch(25% 0.259 322)",
+          "oklch(35% 0.259 322)",
+          "oklch(45% 0.259 322)",
+          "oklch(55% 0.259 322)",
+          "oklch(65% 0.259 322)",
+          "oklch(80% 0.259 322)",
+          "oklch(95% 0.259 322)"
+        ]
+      },
+      "accent-cyan": {
+        "role": "tertiary",
+        "displayName": "Cyan Señal",
+        "canonical": "oklch(79.7% 0.134 211.5)",
+        "tonalRamp": [
+          "oklch(15% 0.134 211.5)",
+          "oklch(25% 0.134 211.5)",
+          "oklch(35% 0.134 211.5)",
+          "oklch(45% 0.134 211.5)",
+          "oklch(55% 0.134 211.5)",
+          "oklch(65% 0.134 211.5)",
+          "oklch(80% 0.134 211.5)",
+          "oklch(95% 0.134 211.5)"
+        ]
+      },
+      "text-primary": {
+        "role": "neutral",
+        "displayName": "Blanco Lila",
+        "canonical": "oklch(96.8% 0.016 290)",
+        "tonalRamp": [
+          "oklch(15% 0.016 290)",
+          "oklch(25% 0.016 290)",
+          "oklch(35% 0.016 290)",
+          "oklch(45% 0.016 290)",
+          "oklch(55% 0.016 290)",
+          "oklch(65% 0.016 290)",
+          "oklch(80% 0.016 290)",
+          "oklch(95% 0.016 290)"
+        ]
+      },
+      "text-secondary": {
+        "role": "neutral",
+        "displayName": "Lila Gris",
+        "canonical": "oklch(79.5% 0.045 290)",
+        "tonalRamp": [
+          "oklch(15% 0.045 290)",
+          "oklch(25% 0.045 290)",
+          "oklch(35% 0.045 290)",
+          "oklch(45% 0.045 290)",
+          "oklch(55% 0.045 290)",
+          "oklch(65% 0.045 290)",
+          "oklch(80% 0.045 290)",
+          "oklch(95% 0.045 290)"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Lila Apagado",
+        "canonical": "oklch(65% 0.06 290)",
+        "tonalRamp": [
+          "oklch(15% 0.06 290)",
+          "oklch(25% 0.06 290)",
+          "oklch(35% 0.06 290)",
+          "oklch(45% 0.06 290)",
+          "oklch(55% 0.06 290)",
+          "oklch(65% 0.06 290)",
+          "oklch(80% 0.06 290)",
+          "oklch(95% 0.06 290)"
+        ]
+      },
+      "border-soft": {
+        "role": "neutral",
+        "displayName": "Borde Suave",
+        "canonical": "rgb(167 139 250 / 0.14)"
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Borde Fuerte",
+        "canonical": "rgb(167 139 250 / 0.26)"
+      },
+      "state-ok": {
+        "role": "status",
+        "displayName": "Esmeralda",
+        "canonical": "oklch(77.3% 0.153 163)",
+        "tonalRamp": [
+          "oklch(15% 0.153 163)",
+          "oklch(25% 0.153 163)",
+          "oklch(35% 0.153 163)",
+          "oklch(45% 0.153 163)",
+          "oklch(55% 0.153 163)",
+          "oklch(65% 0.153 163)",
+          "oklch(80% 0.153 163)",
+          "oklch(95% 0.153 163)"
+        ]
+      },
+      "state-warn": {
+        "role": "status",
+        "displayName": "Ámbar",
+        "canonical": "oklch(83.7% 0.164 84)",
+        "tonalRamp": [
+          "oklch(15% 0.164 84)",
+          "oklch(25% 0.164 84)",
+          "oklch(35% 0.164 84)",
+          "oklch(45% 0.164 84)",
+          "oklch(55% 0.164 84)",
+          "oklch(65% 0.164 84)",
+          "oklch(80% 0.164 84)",
+          "oklch(95% 0.164 84)"
+        ]
+      },
+      "state-crit": {
+        "role": "status",
+        "displayName": "Rosa Alerta",
+        "canonical": "oklch(71.2% 0.194 13)",
+        "tonalRamp": [
+          "oklch(15% 0.194 13)",
+          "oklch(25% 0.194 13)",
+          "oklch(35% 0.194 13)",
+          "oklch(45% 0.194 13)",
+          "oklch(55% 0.194 13)",
+          "oklch(65% 0.194 13)",
+          "oklch(80% 0.194 13)",
+          "oklch(95% 0.194 13)"
+        ]
+      },
+      "state-unknown": {
+        "role": "status",
+        "displayName": "Gris Sin Señal",
+        "canonical": "oklch(65% 0.06 290)",
+        "tonalRamp": [
+          "oklch(15% 0.06 290)",
+          "oklch(25% 0.06 290)",
+          "oklch(35% 0.06 290)",
+          "oklch(45% 0.06 290)",
+          "oklch(55% 0.06 290)",
+          "oklch(65% 0.06 290)",
+          "oklch(80% 0.06 290)",
+          "oklch(95% 0.06 290)"
+        ]
+      },
+      "state-ok-ink": {
+        "role": "status",
+        "displayName": "Tinta Esmeralda",
+        "canonical": "#6ee7b7"
+      },
+      "state-warn-ink": {
+        "role": "status",
+        "displayName": "Tinta Ámbar",
+        "canonical": "#fcd34d"
+      },
+      "state-crit-ink": {
+        "role": "status",
+        "displayName": "Tinta Rosa",
+        "canonical": "#fda4af"
+      },
+      "beacon-housing": {
+        "role": "neutral",
+        "displayName": "Carcasa de Baliza",
+        "canonical": "#16153a"
+      },
+      "lamp-off": {
+        "role": "neutral",
+        "displayName": "Lámpara Apagada",
+        "canonical": "#2c2b52"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "H1 de página con gradiente hero."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de sección."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nombre de asset."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Bajada del H1."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto de UI y leyendas."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Encabezados de bloque, chips, pies."
+      },
+      "numeric": {
+        "displayName": "Numeric",
+        "purpose": "Conteos y valores, tabular."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.05), 0 18px 40px -24px rgb(0 0 0 / 0.7)",
+        "purpose": "Paneles de asset."
+      },
+      {
+        "name": "panel-raised",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.08), 0 30px 60px -30px rgb(0 0 0 / 0.75)",
+        "purpose": "Panel del veredicto global."
+      },
+      {
+        "name": "beacon-housing",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.06), inset 0 -6px 12px rgb(0 0 0 / 0.35), 0 10px 24px -14px rgb(0 0 0 / 0.8)",
+        "purpose": "Carcasa de la baliza."
+      },
+      {
+        "name": "lamp-glow",
+        "value": "0 0 calc(var(--beacon-lamp) * 0.9) color-mix(in oklab, var(--lamp) 70%, transparent)",
+        "purpose": "Halo de lámpara encendida."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Transición de lámparas (250ms) y pulso crítico (1.6s infinito; desactivado con prefers-reduced-motion)."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "legend-2col",
+        "value": "420px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Chip OK",
+      "kind": "chip",
+      "refersTo": "chip-emerald",
+      "description": "Nivel OK de un asset.",
+      "html": "<span class=\"ds-chip ds-chip-emerald\">OK</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:9999px;border:1px solid var(--border-soft,rgb(167 139 250 / .14));background:rgb(255 255 255 / .04);color:var(--text-secondary,#bdbadb);font:500 12px/20px Geist,system-ui,sans-serif;white-space:nowrap} .ds-chip-emerald{color:#6ee7b7;background:rgb(52 211 153 / .12);border-color:rgb(52 211 153 / .32)}"
+    },
+    {
+      "name": "Chip Advertencia",
+      "kind": "chip",
+      "refersTo": "chip-amber",
+      "description": "Nivel warn.",
+      "html": "<span class=\"ds-chip ds-chip-amber\">Advertencia</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:9999px;border:1px solid var(--border-soft,rgb(167 139 250 / .14));background:rgb(255 255 255 / .04);color:var(--text-secondary,#bdbadb);font:500 12px/20px Geist,system-ui,sans-serif;white-space:nowrap} .ds-chip-amber{color:#fcd34d;background:rgb(251 191 36 / .12);border-color:rgb(251 191 36 / .32)}"
+    },
+    {
+      "name": "Chip Crítico",
+      "kind": "chip",
+      "refersTo": "chip-rose",
+      "description": "Nivel crit, incluido sin señal por stale.",
+      "html": "<span class=\"ds-chip ds-chip-rose\">Sin señal</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:9999px;border:1px solid var(--border-soft,rgb(167 139 250 / .14));background:rgb(255 255 255 / .04);color:var(--text-secondary,#bdbadb);font:500 12px/20px Geist,system-ui,sans-serif;white-space:nowrap} .ds-chip-rose{color:#fda4af;background:rgb(251 113 133 / .13);border-color:rgb(251 113 133 / .36)}"
+    },
+    {
+      "name": "Chip Nunca reportó",
+      "kind": "chip",
+      "refersTo": "chip-muted",
+      "description": "Asset que nunca mandó lectura: gris, sin acento.",
+      "html": "<span class=\"ds-chip ds-chip-muted\">Sin señal</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:9999px;border:1px solid var(--border-soft,rgb(167 139 250 / .14));background:rgb(255 255 255 / .04);color:var(--text-secondary,#bdbadb);font:500 12px/20px Geist,system-ui,sans-serif;white-space:nowrap} .ds-chip-muted{background:rgb(142 139 179 / .1);border-color:rgb(142 139 179 / .28)}"
+    },
+    {
+      "name": "Glass Panel",
+      "kind": "card",
+      "refersTo": "glass-panel",
+      "description": "Panel translúcido de cada asset.",
+      "html": "<article class=\"ds-glass\"><h3 class=\"ds-glass-title\">Scalter</h3><p class=\"ds-glass-meta\">PC de visión</p></article>",
+      "css": ".ds-glass{position:relative;padding:24px;color:var(--text-primary,#f4f3ff);background:linear-gradient(160deg,rgb(255 255 255 / .055) 0%,rgb(255 255 255 / .02) 100%);border:1px solid var(--border-soft,rgb(167 139 250 / .14));border-radius:16px;backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);box-shadow:inset 0 1px 0 rgb(255 255 255 / .05),0 18px 40px -24px rgb(0 0 0 / .7);font-family:Geist,system-ui,sans-serif} .ds-glass-title{margin:0;font:700 20px/1.4 'Space Grotesk',system-ui,sans-serif;letter-spacing:-.025em} .ds-glass-meta{margin:4px 0 0;font-size:14px;color:var(--text-muted,#8e8bb3)}"
+    },
+    {
+      "name": "Glass Panel Raised",
+      "kind": "card",
+      "refersTo": "glass-panel-raised",
+      "description": "Panel elevado único para el veredicto global.",
+      "html": "<section class=\"ds-raised\"><h2 class=\"ds-raised-title\">Sin señal</h2><p class=\"ds-raised-sub\">Estado global · 2 assets</p></section>",
+      "css": ".ds-raised{padding:32px;color:var(--text-primary,#f4f3ff);background:linear-gradient(160deg,rgb(255 255 255 / .09) 0%,rgb(255 255 255 / .035) 100%);border:1px solid var(--border-strong,rgb(167 139 250 / .26));border-radius:24px;backdrop-filter:blur(24px) saturate(150%);-webkit-backdrop-filter:blur(24px) saturate(150%);box-shadow:inset 0 1px 0 rgb(255 255 255 / .08),0 30px 60px -30px rgb(0 0 0 / .75);font-family:Geist,system-ui,sans-serif} .ds-raised-title{margin:0;font:700 36px/1.1 'Space Grotesk',system-ui,sans-serif;letter-spacing:-.025em} .ds-raised-sub{margin:4px 0 0;font-size:14px;color:var(--text-secondary,#bdbadb)}"
+    },
+    {
+      "name": "Baliza sin señal",
+      "kind": "custom",
+      "refersTo": "beacon",
+      "description": "Firma: tres lámparas apagadas, carcasa punteada.",
+      "html": "<span class=\"ds-beacon\" data-level=\"unknown\"><span class=\"ds-lamp\" style=\"--lamp:#fb7185\"></span><span class=\"ds-lamp\" style=\"--lamp:#fbbf24\"></span><span class=\"ds-lamp\" style=\"--lamp:#34d399\"></span></span>",
+      "css": ".ds-beacon{display:inline-flex;flex-direction:column;align-items:center;gap:8px;padding:9px;border-radius:9999px;background:linear-gradient(180deg,#16153a 0%,#0c0b26 100%);border:1px solid var(--border-soft,rgb(167 139 250 / .14));box-shadow:inset 0 1px 0 rgb(255 255 255 / .06),inset 0 -6px 12px rgb(0 0 0 / .35),0 10px 24px -14px rgb(0 0 0 / .8)} .ds-beacon[data-level=unknown]{border-style:dashed;border-color:rgb(142 139 179 / .32)} .ds-lamp{display:block;width:20px;height:20px;border-radius:9999px;background:radial-gradient(circle at 35% 30%,#2c2b52 0%,#15142f 70%);box-shadow:inset 0 1px 2px rgb(0 0 0 / .6),inset 0 0 0 1px color-mix(in oklab,var(--lamp) 22%,transparent);transition:background 250ms cubic-bezier(0.16,1,0.3,1),box-shadow 250ms cubic-bezier(0.16,1,0.3,1)} .ds-lamp[data-on]{background:radial-gradient(circle at 35% 30%,color-mix(in oklab,var(--lamp) 40%,white) 0%,var(--lamp) 55%,color-mix(in oklab,var(--lamp) 60%,black) 100%);box-shadow:inset 0 -1px 2px rgb(0 0 0 / .25),0 0 18px color-mix(in oklab,var(--lamp) 70%,transparent)}"
+    },
+    {
+      "name": "Baliza crítica",
+      "kind": "custom",
+      "refersTo": "beacon",
+      "description": "Lámpara superior encendida con halo pulsante.",
+      "html": "<span class=\"ds-beacon\" data-level=\"crit\"><span class=\"ds-lamp\" style=\"--lamp:#fb7185\" data-on></span><span class=\"ds-lamp\" style=\"--lamp:#fbbf24\"></span><span class=\"ds-lamp\" style=\"--lamp:#34d399\"></span></span>",
+      "css": ".ds-beacon{display:inline-flex;flex-direction:column;align-items:center;gap:8px;padding:9px;border-radius:9999px;background:linear-gradient(180deg,#16153a 0%,#0c0b26 100%);border:1px solid var(--border-soft,rgb(167 139 250 / .14));box-shadow:inset 0 1px 0 rgb(255 255 255 / .06),inset 0 -6px 12px rgb(0 0 0 / .35),0 10px 24px -14px rgb(0 0 0 / .8)} .ds-beacon[data-level=unknown]{border-style:dashed;border-color:rgb(142 139 179 / .32)} .ds-lamp{display:block;width:20px;height:20px;border-radius:9999px;background:radial-gradient(circle at 35% 30%,#2c2b52 0%,#15142f 70%);box-shadow:inset 0 1px 2px rgb(0 0 0 / .6),inset 0 0 0 1px color-mix(in oklab,var(--lamp) 22%,transparent);transition:background 250ms cubic-bezier(0.16,1,0.3,1),box-shadow 250ms cubic-bezier(0.16,1,0.3,1)} .ds-lamp[data-on]{background:radial-gradient(circle at 35% 30%,color-mix(in oklab,var(--lamp) 40%,white) 0%,var(--lamp) 55%,color-mix(in oklab,var(--lamp) 60%,black) 100%);box-shadow:inset 0 -1px 2px rgb(0 0 0 / .25),0 0 18px color-mix(in oklab,var(--lamp) 70%,transparent)} .ds-beacon[data-level=crit] .ds-lamp[data-on]{animation:ds-alert 1.6s cubic-bezier(0.16,1,0.3,1) infinite} @keyframes ds-alert{50%{box-shadow:inset 0 -1px 2px rgb(0 0 0 / .25),0 0 32px color-mix(in oklab,var(--lamp) 85%,transparent)}} @media (prefers-reduced-motion:reduce){.ds-lamp{animation:none!important}}"
+    },
+    {
+      "name": "Barra superior",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Marca Baliza con ícono de sirena.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 18v-6a5 5 0 1 1 10 0v6\"/><path d=\"M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z\"/><path d=\"M21 12h1\"/><path d=\"M18.5 4.5 18 5\"/><path d=\"M2 12h1\"/><path d=\"M12 2v1\"/><path d=\"m4.929 4.929.707.707\"/><path d=\"M12 12v6\"/></svg><span>Baliza</span></a></header>",
+      "css": ".ds-nav{display:flex;align-items:center;height:64px;padding:0 24px;border-bottom:1px solid var(--border-soft,rgb(167 139 250 / .14))} .ds-brand{display:flex;align-items:center;gap:10px;color:var(--accent-violet-bright,#a78bfa);text-decoration:none;border-radius:6px} .ds-brand span{font:700 18px/1 'Space Grotesk',system-ui,sans-serif;letter-spacing:-.025em;color:var(--text-primary,#f4f3ff)} .ds-brand:hover span{color:#fff} .ds-brand:focus-visible{outline:2px solid var(--accent-violet-bright,#a78bfa);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La baliza en la noche del AI Day",
+    "overview": "Baliza vive dentro del mundo visual de la plataforma del AI Day de Flock: un azul-noche profundo, tres blobs de color muy desenfocados fijos detrás del contenido, y paneles de vidrio translúcido con borde finísimo que flotan sobre esa luz. Sobre esa noche, el único objeto con peso físico es la baliza: una carcasa en cápsula con tres lámparas (crítico arriba, advertencia en el medio, OK abajo). El estado se lee por cuál lámpara está encendida, no por números grandes.\n\nLa densidad es aireada pero operativa: titulares en Space Grotesk con tracking cerrado, UI en Geist, valores en Geist Mono tabular. El color de marca (violeta, magenta, cyan) pertenece a la atmósfera, la marca y el foco; los colores de semáforo (emerald, amber, rose) aparecen solo donde significan un nivel. \"Sin señal\" (nunca reportó) es gris-azulado y apagado, nunca un color de alerta.\n\nEl sistema rechaza el dashboard de KPIs grandes con sparkline y la grilla de tarjetas-métrica: cada asset es una baliza con su lista de checks.",
+    "keyCharacteristics": [
+      "Fondo noche (`bg-deep`) con blobs violeta/magenta/cyan a `blur(100px)` y baja opacidad, fijos.",
+      "Paneles glass translúcidos con `backdrop-filter` y borde violeta al 14–26%.",
+      "La baliza de tres lámparas como firma: apagada = vidrio gris-azulado; encendida = color de nivel con halo.",
+      "Semáforo semántico estricto; gris para lo que nunca reportó.",
+      "Números siempre en mono tabular."
+    ],
+    "rules": [
+      {
+        "name": "The Semáforo Solo Significa Rule",
+        "body": "Emerald, amber y rose aparecen únicamente para expresar un nivel (lámpara, chip, punto de leyenda). Nunca como decoración ni como acento de marca.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gris No Alarma Rule",
+        "body": "Un asset que nunca reportó es gris (`state-unknown`, `chip-muted`, carcasa punteada). Uno que dejó de reportar es rojo. No se mezclan.",
+        "section": "colors"
+      },
+      {
+        "name": "The Marca Es Atmósfera Rule",
+        "body": "Violeta, magenta y cyan viven en el fondo, el gradiente del H1, el foco y los íconos de marca/datos; los paneles y el texto de UI quedan en neutros lila.",
+        "section": "colors"
+      },
+      {
+        "name": "The Número En Mono Rule",
+        "body": "Todo valor medido o conteo va en Geist Mono tabular; el texto que lo rodea, en Geist.",
+        "section": "typography"
+      },
+      {
+        "name": "The Titular Bold Rule",
+        "body": "Los titulares usan Space Grotesk 700 con tracking -0.025em y `text-wrap: balance`.",
+        "section": "typography"
+      },
+      {
+        "name": "The Un Solo Elevado Rule",
+        "body": "Por pantalla hay un único panel elevado: el que lleva el veredicto. Todo lo demás es panel base.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** leer el estado por la baliza de tres lámparas y repetirlo en texto (chip + motivo).",
+      "**Do** mostrar \"sin señal\" en gris apagado con carcasa punteada cuando un asset nunca reportó, y \"—\" en sus valores.",
+      "**Do** poner todo número en Geist Mono con `tabular-nums`.",
+      "**Do** mantener los nombres de tokens y clases del tema AI Day (`--bg-deep`, `--accent-*`, `--text-*`, `--border-soft`, `glass-panel`, `glass-panel-raised`, `chip-*`, `text-gradient-hero`) sin renombrar.",
+      "**Do** usar íconos lucide de trazo fino (1.5–1.75).",
+      "**Do** respetar `prefers-reduced-motion`: el pulso crítico se apaga."
+    ],
+    "donts": [
+      "**Don't** construir dashboards de KPIs grandes con sparkline ni grillas de tarjetas-métrica; cada asset es una baliza con su lista de checks.",
+      "**Don't** usar emerald, amber o rose fuera de un nivel de estado.",
+      "**Don't** pintar en color de alerta un asset que nunca reportó, ni en gris uno que dejó de reportar.",
+      "**Don't** inventar valores: sin lectura real, el valor es \"—\".",
+      "**Don't** apilar más de un panel elevado por pantalla."
+    ]
+  }
+}
