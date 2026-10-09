@@ -201,8 +201,14 @@ Tokens CSS en `:root` (nombres exactos para que calce con el AI Day):
 - Texto: `--text-primary`, `--text-secondary`, `--text-muted`. Bordes: `--border-soft`.
 - Clases: `glass-panel`, `glass-panel-raised` (translúcido + blur + `rounded-2xl/3xl`),
   `chip` y `chip-violet` / `chip-emerald` / `chip-amber`, y agregar `chip-rose` (crítico).
-- Tipografía: `font-display`, títulos `font-extrabold tracking-tight`, H1 con
-  `text-gradient-hero`. Íconos lucide (trazos finos). Mobile-first, sin scroll horizontal.
+- Tipografía: `font-display` = **Space Grotesk**, cuerpo = **Geist**, valores
+  numéricos en Geist Mono tabular. Títulos `font-bold tracking-tight` (Space
+  Grotesk llega a 700; `extrabold` no aplica). H1 con `text-gradient-hero`.
+  Íconos lucide (trazos finos). Mobile-first, sin scroll horizontal.
+- Semáforo: componente `Beacon` (baliza de 3 lámparas). `unknown` = las tres
+  apagadas con carcasa punteada (gris, nunca reportó); stale = lámpara roja.
+- Contexto de producto para Impeccable en `apps/web/PRODUCT.md`; brief del
+  dashboard en `apps/web/.impeccable/surfaces/`.
 
 ---
 

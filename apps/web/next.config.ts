@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  transpilePackages: ["@baliza/shared"],
   /* config options here */
   cacheComponents: true,
   partialPrefetching: true,

@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Impeccable: capturas de revisión locales
+apps/web/.impeccable/review/
+apps/web/.impeccable/hook.cache.json
